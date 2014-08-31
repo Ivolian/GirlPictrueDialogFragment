@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <!--内容-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="130dp"
+                  android:orientation="vertical"
+                  android:gravity="center_vertical"
+                  android:background="@drawable/content_bg"
+                  android:paddingLeft="10dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="1、 改善设计"
+                  android:textSize="18dp"
+                  android:textColor="@android:color/black"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="2、 修复一些错误"
+                  android:textSize="18dp"
+                  android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <!--分割线-->
+    <View android:layout_height="0.2dp"
+          android:layout_width="match_parent"
+          android:background="@color/line"/>
+
+    <!--按钮-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView android:layout_width="0dp" android:layout_weight="1"
+                  android:layout_height="60dp"
+                  android:text="应用更新"
+                  android:textSize="17dp"
+                  android:gravity="center"
+                  android:background="@drawable/left_btn_bg"
+                  android:textColor="@android:color/black"
+                  android:clickable="true"/>
+
+        <View android:layout_height="60dp"
+              android:layout_width="0.2dp"
+              android:background="@color/line"/>
+
+        <TextView android:layout_width="0dp" android:layout_weight="1"
+                  android:layout_height="60dp"
+                  android:text="应用更新"
+                  android:textSize="17dp"
+                  android:gravity="center"
+                  android:background="@drawable/right_btn_bg"
+                  android:textColor="@android:color/black"
+                  android:clickable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

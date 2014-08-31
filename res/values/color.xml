@@ -1,0 +1,6 @@
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="btn_press">#eeeeee</color>
+    <color name="line">#dddddd</color>
+    <color name="black">#000000</color>
+</resources>
